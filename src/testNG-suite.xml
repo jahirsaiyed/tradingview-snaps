@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="spring-boot"  parallel="tests" thread-count="1">
+    <test name="open trading view">
+        <parameter name="dobFrom" value="1995-01-01"></parameter>
+        <parameter name="dobTo" value="1997-01-01"></parameter>
+        <classes>
+            <class name="tradingview.com.analysis.data.OpenTradingviewTest"/>
+        </classes>
+    </test>
+
+    <test name="open scrip">
+        <parameter name="scripName" value="csx"></parameter>
+        <classes>
+            <class name="tradingview.com.analysis.data.OpenScripTest"/>
+        </classes>
+    </test>
+
+
+</suite>
