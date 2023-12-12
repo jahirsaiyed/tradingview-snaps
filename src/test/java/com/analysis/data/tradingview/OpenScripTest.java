@@ -21,27 +21,32 @@ public class OpenScripTest extends SpringBaseTestNGTest {
     @Test
     public void captureScrips() throws IOException, InterruptedException, URISyntaxException {
 
-        Object[][] csvData = Data.getCsvData(new File (this.getClass().getResource("/data/nasdaq_screener.csv").toURI()));
+        Object[][] csvData = Data.getCsvData(new File (this.getClass().getResource("/data/halalStocks.csv").toURI()));
         this.tradingviewPage.getLauncher().launch();
+        captureSnapsOfChart("AAPL");
 
         for (Object[] csv : csvData) {
             String scripName = (String) ((Object[])csv[1])[0];
             if (screenshotUtil.skipDirectory(scripName)) continue;
-            logger.info(scripName);
-            this.tradingviewPage.getSearchComponent().search(scripName);
-            this.tradingviewPage.getSearchResult().select1WeekInterval();
-            this.screenshotUtil.takeScreenshot(scripName, "-1W");
-
-            this.tradingviewPage.getSearchResult().select1DayInterval();
-            this.screenshotUtil.takeScreenshot(scripName, "-1D");
-
-            this.tradingviewPage.getSearchResult().select4hourInterval();
-            this.screenshotUtil.takeScreenshot(scripName, "-4H");
-
-            this.tradingviewPage.getSearchResult().select1hourInterval();
-            this.screenshotUtil.takeScreenshot(scripName, "-1H");
+            captureSnapsOfChart(scripName);
         }
 
 //        this.tradingviewPage.close();
+    }
+
+    private void captureSnapsOfChart(String scripName) throws InterruptedException, IOException {
+        logger.info(scripName);
+        this.tradingviewPage.getSearchComponent().search(scripName);
+        this.tradingviewPage.getSearchResult().select1WeekInterval();
+        this.screenshotUtil.takeScreenshot(scripName, "-1W");
+
+        this.tradingviewPage.getSearchResult().select1DayInterval();
+        this.screenshotUtil.takeScreenshot(scripName, "-1D");
+
+        this.tradingviewPage.getSearchResult().select4hourInterval();
+        this.screenshotUtil.takeScreenshot(scripName, "-4H");
+
+        this.tradingviewPage.getSearchResult().select1hourInterval();
+        this.screenshotUtil.takeScreenshot(scripName, "-1H");
     }
 }

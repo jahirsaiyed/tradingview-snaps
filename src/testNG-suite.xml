@@ -4,14 +4,13 @@
         <parameter name="dobFrom" value="1995-01-01"></parameter>
         <parameter name="dobTo" value="1997-01-01"></parameter>
         <classes>
-            <class name="tradingview.com.analysis.data.OpenTradingviewTest"/>
+            <class name="com.analysis.data.tradingview.OpenTradingviewTest"/>
         </classes>
     </test>
 
     <test name="open scrip">
-        <parameter name="scripName" value="csx"></parameter>
         <classes>
-            <class name="tradingview.com.analysis.data.OpenScripTest"/>
+            <class name="com.analysis.data.tradingview.OpenScripTest"/>
         </classes>
     </test>
 

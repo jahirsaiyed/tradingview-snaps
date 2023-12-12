@@ -1,0 +1,62 @@
+Stock,Company,marketCap,isHalal,HalalRating
+NVDA,NVIDIA Corporation,310.40B,Halal,5
+TXN,Texas Instruments Incorporated,145.94B,Halal,5
+AMGN,Amgen Inc.,134.77B,Halal,5
+AMD,Advanced Micro Devices, Inc.,94.95B,Halal,5
+CHTR,Charter Communications, Inc.,53.08B,Halal,5
+AMAT,Applied Materials, Inc.,70.91B,Halal,5
+TEAM,Atlassian Corporation,49.48B,Halal,5
+SNPS,Synopsys, Inc.,45.34B,Halal,5
+ADSK,Autodesk, Inc.,43.47B,Halal,5
+CDNS,Cadence Design Systems, Inc.,43.36B,Halal,5
+CTAS,Cintas Corporation,40.61B,Halal,5
+FTNT,Fortinet, Inc.,42.38B,Halal,5
+LULU,Lululemon Athletica inc.,39.63B,Halal,5
+ILMN,Illumina, Inc.,34.61B,Halal,5
+MRVL,Marvell Technology, Inc.,48.97B,Halal,5
+CTSH,Cognizant Technology Solutions Corporation,31.21B,Halal,5
+ODFL,Old Dominion Freight Line, Inc.,29.11B,Halal,5
+CPRT,Copart, Inc.,26.10B,Halal,5
+FAST,Fastenal Company,25.21B,Halal,5
+ANSS,ANSYS, Inc.,18.65B,Halal,5
+ALGN,Align Technology, Inc.,16.22B,Halal,5
+DOCU,DocuSign, Inc.,9.60B,Halal,5
+ASML,ASML Holding N.V.,178.28B,Halal,4
+QCOM,QUALCOMM Incorporated,129.98B,Halal,4
+ADI,Analog Devices, Inc.,75.40B,Halal,4
+ABNB,Airbnb, Inc.,77.81B,Halal,4
+MNST,Monster Beverage Corporation,46.15B,Halal,4
+ORLY,O’Reilly Automotive, Inc.,47.11B,Halal,4
+LRCX,Lam Research Corporation,50.59B,Halal,4
+DXCM,DexCom, Inc.,37.56B,Halal,4
+SGEN,Seagen Inc.,23.76B,Halal,4
+ZS,Zscaler, Inc.,21.53B,Halal,4
+VRSN,VeriSign, Inc.,19.22B,Halal,4
+SWKS,Skyworks Solutions, Inc.,13.50B,Halal,4
+ZM,Zoom Video Communications, Inc.,24.10B,Halal,4
+PEP,Pepsico, Inc.,238.43B,Halal,3
+ADBE,Adobe Inc.,142.43B,Halal,3
+VRTX,Vertex Pharmaceuticals Incorporated,76.94B,Halal,3
+ISRG,Intuitive Surgical, Inc.,78.03B,Halal,3
+PDD,Pinduoduo Inc.,72.01B,Halal,3
+WDAY,Workday, Inc.,38.27B,Halal,3
+KLAC,KLA Corporation,41.21B,Halal,3
+CRWD,CrowdStrike Holdings, Inc.,36.48B,Halal,3
+ROST,Ross Stores, Inc.,29.52B,Halal,3
+DDOG,Datadog, Inc.,26.00B,Halal,3
+OKTA,Okta, Inc.,8.74B,Halal,3
+TSLA,Tesla, Inc.,671.94B,Halal,2
+AVGO,Broadcom Inc.,187.38B,Halal,2
+AZN,AstraZeneca PLC,149.63B,Halal,2
+CSCO,Cisco Systems, Inc.,175.86B,Halal,2
+INTC,Intel Corporation,110.74B,Halal,2
+REGN,Regeneron Pharmaceuticals, Inc.,77.82B,Halal,2
+MDLZ,Mondelez International, Inc.,78.60B,Halal,2
+MU,Micron Technology, Inc.,60.94B,Halal,2
+KDP,Keurig Dr Pepper Inc.,53.27B,Halal,2
+BIIB,Biogen Inc.,38.83B,Halal,2
+IDXX,IDEXX Laboratories, Inc.,28.11B,Halal,2
+AAPL,Apple Inc.,2.37T,Halal,1
+SBUX,Starbucks Corporation,101.67B,Halal,1
+NXPI,NXP Semiconductors N.V.,38.14B,Halal,1
+BIDU,Baidu, Inc.,26.387B,Halal,1
